@@ -23,23 +23,23 @@ public class TaskModel {
     private long id;
 
     @Column (nullable = false)
-    private String description;
+    private String descricao;
 
     @Column (nullable = false)
     private String status;
 
-    @Column (name = "data create", nullable = false, updatable = false)
-    private LocalDateTime creationDate;
+    @Column (name = "Data de Criação", nullable = false, updatable = false)
+    private LocalDateTime dataCriacao;
 
     @Column (name = "end date")
-    private LocalDateTime dueDate;
+    private LocalDateTime dataConclusaoPrevista;
 
     @Column (name = "complete date")
-    private LocalDateTime completionDate;
+    private LocalDateTime dataFinalizacao;
 
     @PrePersist
     protected void onCreate() {
-        this.creationDate = LocalDateTime.now();
+        this.dataCriacao = LocalDateTime.now();
         if (this.status == null) { // Garante um status padrão se não for fornecido
             this.status = "Pending";
         }
