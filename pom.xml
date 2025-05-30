@@ -12,7 +12,7 @@
 	<artifactId>taskflow</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Taskflow</name>
-	<description>Day Planner for students</description>
+	<description>gerenciamento de tarefas. Construída com Java, Spring Boot e PostgreSQL. Projeto de portfólio.</description>
 	<url/>
 	<licenses>
 		<license/>

@@ -50,7 +50,7 @@
             return ResponseEntity.ok(taskAtualizada);
         }
 
-        @DeleteMapping("{/id}")
+        @DeleteMapping("/{id}")
         public ResponseEntity<Void> deletarTask (@PathVariable Long id) {
             taskService.deletarTask(id);
             return ResponseEntity.noContent().build();
