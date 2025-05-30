@@ -253,13 +253,3 @@ Recomenda-se o uso de ferramentas como [Postman](https://www.postman.com/) ou [I
 -   Implementar autenticação e autorização de usuários.
 -   Desenvolver um frontend para interagir com a API.
 
----
-
-**Autor**
-
-Davi <SEU_SOBRENOME_AQUI>
-
-* GitHub: `https://github.com/<SEU_USUARIO_GITHUB_AQUI>`
-* LinkedIn: `https://linkedin.com/in/<SEU_PERFIL_LINKEDIN_AQUI>` (Se tiver)
-
----
