@@ -10,11 +10,11 @@ import org.springframework.cglib.core.Local;
 import java.text.DateFormat;
 import java.time.LocalDateTime;
 
-@Entity // 1. Indica que esta classe é uma entidade JPA (será uma tabela no banco)
-@Table(name = "tarefas") // 2. (Opcional) Especifica o nome da tabela no banco. Se omitido, usa o nome da classe.
-@Data // 3. Lombok: Gera getters, setters, toString(), equals() e hashCode()
-@NoArgsConstructor // 4. Lombok: Gera um construtor sem argumentos (necessário para JPA)
-@AllArgsConstructor // 5. Lombok: Gera um construtor com todos os argumentos (conveniente)
+@Entity
+@Table(name = "tarefas")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class TaskModel {
 
 
