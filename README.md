@@ -254,12 +254,3 @@ It is recommended to use tools like [Postman](https://www.postman.com/) or [Inso
 -   Develop a frontend to interact with the API.
 
 ---
-
-**Author**
-
-Davi <YOUR_LAST_NAME_HERE>
-
-* GitHub: `https://github.com/<YOUR_GITHUB_USERNAME_HERE>`
-* LinkedIn: `https://linkedin.com/in/<YOUR_LINKEDIN_PROFILE_HERE>` (If applicable)
-
----
